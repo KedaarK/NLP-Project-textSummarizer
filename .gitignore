@@ -1,0 +1,51 @@
+# ----------------------------
+# Python and virtual environments
+# ----------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.log
+
+# ----------------------------
+# Streamlit and cache data
+# ----------------------------
+.streamlit/
+cache/
+logs/
+*.sqlite3
+
+# ----------------------------
+# Environment and secret keys
+# ----------------------------
+.env
+.env.*
+*.env
+secrets.json
+config.json
+
+# ----------------------------
+# Jupyter and temporary files
+# ----------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.bak
+*.swp
+*.tmp
+
+# ----------------------------
+# OS and editor-specific files
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------------
+# Generated or exported files
+# -
